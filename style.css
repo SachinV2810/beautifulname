@@ -1,0 +1,309 @@
+body{
+    background-color: black;
+    height: 100vh;
+     background-image:linear-gradient(-30deg,black,rgb(4, 7, 71),black,rgb(4, 7, 71),black,rgb(4, 7, 71),black); 
+    animation: animate 10s ease-in-out infinite;
+     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%,rgba(19, 7, 67, 0.5) 100%), url(glitter-efecto.jpg.jpg); 
+    background-size: contain;
+    overflow: hidden;
+  
+}
+.text{
+    font-size: 250px;
+    font-family: 'Allura', cursive; 
+    display: FLEX;
+    align-items: center;
+    margin-top: 250px;
+    width:1000px;
+    height: 200px;
+    padding: 20px;
+    padding-left: 30px;
+    border-radius: 40px;
+    margin-left: 150px;
+    cursor: pointer;
+    filter:brightness(2);
+    
+}
+.heart{
+    font-size: 150px;
+    position: relative;
+    display: inline-flex;
+    margin-left: 1000px;
+    top:-100px;
+    cursor: pointer;
+    filter:brightness(1.2);
+}
+.text2{
+    font-size: 250px;
+    font-family: 'Allura', cursive; 
+    display: FLEX;
+    align-items: center;
+    margin-top: -1300px;
+    width:1000px;
+    height: 200px;
+    padding: 20px;
+    padding-left: 30px;
+    border-radius: 40px;
+    margin-left: 400px;
+    cursor: pointer;
+    filter:brightness(1.4);
+
+}
+
+.ball1{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(250, 250, 7,0.6);
+    border-radius: 50%;
+    box-shadow: 1px 0px  5px rgb(229, 229, 149);
+    margin-top: 80px;
+    margin-left: -78px;
+    z-index: -1;
+    filter:brightness(4);
+
+}
+.ball2{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(250, 250, 7,0.6);
+    border-radius: 50%;
+    box-shadow: 1px 0px  5px rgb(229, 229, 149);
+    margin-top: 120px;
+    margin-left: -78px;
+    z-index: -1;
+    filter:brightness(4);
+}
+.ball3{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(250, 250, 7,0.6);
+    border-radius: 50%;
+    box-shadow: 1px 0px  5px rgb(229, 229, 149);
+    margin-top: -80px;
+    margin-left: -80px;
+    z-index: -1;
+    filter:brightness(4);
+}
+.ball4{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(250, 250, 7,0.6);
+    border-radius: 50%;
+    box-shadow: 1px 0px  5px rgb(229, 229, 149);
+    margin-top: -140px;
+    margin-left: -78px;
+    z-index: -1;
+    filter:brightness(4);
+}
+.ball5{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(243, 243, 159, 0.6);
+    border-radius: 50%;
+    box-shadow: 1px 0px  5px rgb(229, 229, 149);
+    margin-top: 10px;
+    margin-left: -78px;
+    z-index: -1;
+    filter:brightness(4);
+}
+.ball6{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(232, 232, 127, 0.6);
+    border-radius: 50%;
+    box-shadow: 1px 0px  5px rgb(229, 229, 149);
+    margin-top: -120px;
+    margin-left: -78px;
+    z-index: -1;
+    filter:brightness(4);
+}
+.ball7{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(229, 229, 95, 0.6);
+    border-radius: 50%;
+    box-shadow: 1px 0px  5px rgb(229, 229, 149);
+    margin-top: -210px;
+    margin-left: -78px;
+    z-index: -1;
+    filter:brightness(4);
+}
+
+.ball8{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(214, 214, 72, 0.6);
+    border-radius: 50%;
+    box-shadow: 1px 0px  5px rgb(229, 229, 149);
+    margin-top:170px;
+    margin-left: 1px;
+    z-index: -1;
+    filter:brightness(4);
+}
+.ball9{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(222, 222, 5, 0.6);
+    border-radius: 50%;
+    box-shadow: 1px 0px  5px rgb(229, 229, 149);
+    margin-top: 90px;
+    margin-left: 93px;
+    z-index: -1;
+    filter:brightness(4);
+}
+
+
+.s2{
+    color: rgba(179, 255, 0,0.8);
+    animation: glow 1.6s cubic-bezier(0.1, -0.6, 0.2, 0) 0s infinite ;
+    font-weight: bolder;
+    text-shadow :2px 2px 30px rgb(157, 255, 0),2px 2px 30px rgb(177, 9, 255),-5px 0px 0px rgb(139, 129, 129);
+    
+}
+
+.a2{
+    animation: glow 1.6s cubic-bezier(0.1, -0.6, 0.2, 0) 0s infinite ;
+    margin-left: 20px;
+    text-shadow :2px 2px 30px rgb(157, 255, 0),2px 2px 30px rgb(177, 9, 255),-4px 0px 0px rgb(139, 129, 129);
+}
+
+.c2{
+    animation: glow 1.6s cubic-bezier(0.1, -0.6, 0.2, 0) 0s infinite ;
+    margin-left: 20px;
+    text-shadow :2px 2px 30px rgb(157, 255, 0),2px 2px 30px rgb(177, 9, 255),-4px 0px 0px rgb(139, 129, 129);
+
+}
+
+
+.h2{
+    animation: glow 1.6s cubic-bezier(0.1, -0.6, 0.2, 0) 0s infinite ;
+    margin-left: 20px;
+    text-shadow :2px 2px 30px rgb(157, 255, 0),2px 2px 30px rgb(177, 9, 255),-4px -2px 0px rgb(139, 129, 129);
+} 
+
+
+.k2{
+    animation: glow 1.6s cubic-bezier(0.1, -0.6, 0.2, 0) 0s infinite ;
+    margin-left: 20px;
+    text-shadow :2px 2px 30px rgb(157, 255, 0),2px 2px 30px rgb(177, 9, 255),-5px 0px 1px rgb(139, 129, 129);
+}
+.n2{
+    animation: glow 1.6s cubic-bezier(0.1, -0.6, 0.2, 0) 0s infinite ;
+    margin-left: 20px;
+    text-shadow :2px 2px 30px rgb(157, 255, 0),2px 2px 30px rgb(177, 9, 255),-5px 0px 1px rgb(139, 129, 129);
+
+}
+
+@keyframes glow{
+    0%{
+        color: 	#6d7071;
+        
+        
+    }
+    10%{
+        color: #3707c7;
+    }
+    20%{
+        color: 	#0e4764;
+    }
+    30%{
+        color: #dc1f0a;
+    }
+    40%{
+        color: #383735;
+    }
+    50%{
+        color: 	#341b9a;
+    }
+    60%{
+        color: 	#0a3217;
+    }
+    70%{
+        color: 	#0a5c25;
+    }
+    80%{
+        color: 	#5d0f69;
+    }
+    90%{
+        color: #790404;
+    }
+    100%{
+        color: #6f7601;
+    }
+
+}
+
+
+
+.he1{
+    margin-top: -1470px;
+    position: absolute;
+    animation: glowh1 0.6s linear 0s infinite;
+    text-shadow :2px 2px 50px rgb(177, 9, 255);
+    
+
+}
+.he2{
+    margin-top: -1490px;
+    animation: glowh2 0.9s linear 0s infinite;
+    text-shadow :2px 2px 50px rgb(177, 9, 255);
+}
+.he3{
+    margin-top: -1450px;
+    position: absolute;
+    animation: glowh 1s linear 0s infinite;
+    text-shadow :2px 2px 50px rgb(177, 9, 255);
+
+
+}
+
+@keyframes glowh{
+    0%{
+        color:red;
+        transform: scaleX(1.06)scaleY(1.06);
+    }
+    50%{
+        color:#771180;
+        
+    }
+    100%{
+        color:#97559d;
+    }
+}
+
+@keyframes glowh1{
+    0%{
+        color:	#88418e;
+        transform: scaleX(1.06)scaleY(1.06);
+        
+    }
+    50%{
+        color:	red;
+    }
+    100%{
+        color:#771180;
+    }
+}
+
+@keyframes glowh2{
+    0%{
+        color:	#771180;
+    }
+    50%{
+        color:	#671a6e;
+    }
+    100%{
+        color:	red;
+}
+}
+@keyframes animate{
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 50%;
+    }
+}
