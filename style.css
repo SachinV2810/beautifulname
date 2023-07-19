@@ -313,7 +313,7 @@ body{
   display: none;
 }
 
-@media (max-width: 500px){
+@media (max-width: 980px){
   .main {
     display: none;
   }
