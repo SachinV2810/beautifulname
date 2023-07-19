@@ -307,3 +307,28 @@ body{
       background-position: 0 50%;
     }
 }
+
+
+#message {
+  display: none;
+}
+
+@media (max-width: 500px){
+  .main {
+    display: none;
+  }
+  body{
+    background-color: black;
+    background-image: none;
+    overflow: scroll;
+  }
+
+  #message {
+    display: block;
+  }
+}
+
+.main{
+    margin-top: 100px;
+}
+
